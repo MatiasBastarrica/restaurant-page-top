@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-page-top",
+  "version": "1.0.0",
+  "description": "Project: Restaurant Page from The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasBastarrica/restaurant-page-top.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasBastarrica/restaurant-page-top/issues"
+  },
+  "homepage": "https://github.com/MatiasBastarrica/restaurant-page-top#readme"
+}
