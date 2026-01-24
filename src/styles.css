@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "parisienne";
+  src:
+    url("./fonts/parisienne-regular-webfont.woff2") format("woff2"),
+    url("./fonts/parisienne-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FunnelSans";
+  src:
+    url(./fonts/FunnelSans-Regular.woff) format("woff"),
+    url(./fonts/FunnelSans-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ### CSS RESET ### */
 
 *,
@@ -57,6 +75,13 @@ h6 {
 
 body {
   background-color: rgb(224, 210, 212);
+  font-family: "FunnelSans";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "parisienne";
 }
 
 h1 {
@@ -125,10 +150,16 @@ nav button:hover {
   max-width: 180px;
 }
 
+.about-wrapper h2 {
+  text-decoration: underline;
+  text-underline-offset: 14px;
+}
+
 /* ### MENU TAB ### */
 
 .menu-wrapper h2 {
   text-decoration: underline;
+  text-underline-offset: 14px;
   text-transform: uppercase;
 }
 
