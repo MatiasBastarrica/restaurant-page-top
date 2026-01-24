@@ -3,6 +3,7 @@ import { createElement, appendElements } from "./elements.js";
 
 const content = document.querySelector("#content");
 const divParent = createElement("div");
+divParent.classList.add("home-wrapper");
 
 const title = createElement("h1");
 title.textContent = "La Ratatouille";

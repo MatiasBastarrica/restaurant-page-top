@@ -1,8 +1,103 @@
+/* ### CSS RESET ### */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: pink;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* ### GENERAL STYLING ### */
+
+body {
+  background-color: rgb(224, 210, 212);
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  max-width: 45ch;
+}
+
+nav {
+  padding-block: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  min-height: 7rem;
+  padding-block-end: 1.5rem;
+  border-bottom: 4px solid white;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding-top: 0.8rem;
+}
+
+nav button:hover {
+  border-block-start: 4px outset white;
 }
 
 .homepage-img {
   width: 300px;
   height: auto;
+}
+
+/* ### HOME TAB ### */
+
+.home-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-wrapper p {
+  text-align: center;
 }
