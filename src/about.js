@@ -3,6 +3,7 @@ import { createElement, appendElements } from "./elements.js";
 
 const content = document.querySelector("#content");
 const divParent = createElement("div");
+divParent.classList.add("about-wrapper", "flow-vertical");
 
 const h2 = createElement("h2");
 h2.textContent = "About Us";
