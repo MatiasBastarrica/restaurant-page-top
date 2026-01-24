@@ -5,5 +5,5 @@ import { loadMenu } from "./menu.js";
 
 console.log("Welcome, Odinite!");
 // loadHome();
-// loadAbout();
+loadAbout();
 // loadMenu();
